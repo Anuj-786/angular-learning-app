@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-app';
+  name = 'Anuj';
+  
+  test = window.location.href
+  myid = 'testid';
+  isdisabled = false;
+  myFunction() {
+  
+    
+    return "Welcom " + this.name;
+  }
 }
